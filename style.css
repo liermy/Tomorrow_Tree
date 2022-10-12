@@ -221,7 +221,7 @@ hr {
         text-decoration: none;
         color: white;
         font-weight: 300;
-        font-size: 32px;
+        font-size: 20px;
     }
     
     nav ul {
@@ -351,4 +351,27 @@ hr {
     
     }
     
+    iframe {
+        width: 480px;
+    }
+
+    div.leaf h1 {
+        font-size: 120px;
+        color: white;
+        font-family: noodle;
+        padding-left: 90px;
+    }
+
+    div#part1 {
+        background-color: #99a285;
+        display: flex;
+        padding-bottom: 87px;
+        width: 513px;
+    }
+
+    div#part3 {
+        background-color: #99a285;
+        height: 658px;
+        width: 513px;
+    }
 }
