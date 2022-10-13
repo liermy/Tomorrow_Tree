@@ -1,0 +1,190 @@
+@font-face {
+    font-family: noodle;
+    src: url(./font_/big_noodle_titling.ttf);
+}
+
+@media screen and (max-width:2000px) {
+
+    nav {
+        display: flex;
+        background-color: #596e44;
+        width: 100%;
+        
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+        font-size: 32px;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        width: 100%;
+        justify-content: right;
+    }
+    
+    nav ul li {
+        text-align: right;
+        padding-right: 10px;
+    }
+    
+    nav ul li a {
+        padding: 5px 0;
+        width: 100%;
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav ul li a:hover {
+        color: #99a285;
+        border-radius: 10px;
+        top: 2px;
+        position: relative;
+    }
+    
+    div#button {
+        display: flex;
+    }
+    
+    button {
+        font-size: 22px;
+        cursor: pointer;
+        border-radius: 28px;
+        border: 1px solid #99a285;
+        color: #99a285;
+        font-family: noodle;
+        padding: 11px 19px;
+        background-color: white;
+        margin: 5px;
+        text-shadow: 0px 1px 0px #84887a;
+        text-transform: uppercase;
+    }
+    
+    button:hover {
+        background-color: #99a285;
+        color: white;
+    }
+    
+    button:active {
+        position: relative;
+        top: 1px;
+    }
+
+.container {
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+}
+
+body {
+    font-family: noodle;
+    background-color: #99a285;
+    margin: 0;
+}
+
+.conponent {
+    height: 36rem;
+    width: 26rem;
+    border-radius: 58px;
+    background: #596e44;
+    box-shadow:  38px 38px 75px #3c4a2e, -38px -38px 75px #76925a;
+    margin-left: 80px;
+}
+
+h6 {
+    text-align: center;
+    font-size: 40px;
+    margin: 5px;
+    color: white;
+}
+
+h1 {
+    font-size: 95px;
+    margin: 10px;
+    color: #596e44;
+    text-shadow: 5px 5px 5px #3c4a2e;
+}
+ 
+p {
+    font-size: 23px;
+    margin: 10px;
+    color: #ffffff;
+
+}
+
+}
+
+@media screen and (max-width:600px) {
+    nav {
+        display: flex;
+        background-color: #596e44;
+        width: 100%;
+        
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        width: 100%;
+        justify-content: right;
+    }
+    
+    nav ul li {
+        text-align: right;
+        padding-right: 10px;
+    }
+    
+    nav ul li a {
+        padding: 5px 0;
+        width: 100%;
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav ul li a:hover {
+        color: #99a285;
+        border-radius: 10px;
+        top: 2px;
+        position: relative;
+    }
+    
+    div#button {
+        display: flex;
+    }
+    
+    button {
+        font-size: 22px;
+        cursor: pointer;
+        border-radius: 28px;
+        border: 1px solid #99a285;
+        color: #99a285;
+        font-family: noodle;
+        padding: 11px 19px;
+        background-color: white;
+        margin: 5px;
+        text-shadow: 0px 1px 0px #84887a;
+        text-transform: uppercase;
+    }
+    
+    button:hover {
+        background-color: #99a285;
+        color: white;
+    }
+    
+    button:active {
+        position: relative;
+        top: 1px;
+    }
+}
