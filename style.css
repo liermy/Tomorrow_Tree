@@ -23,7 +23,6 @@ div#part2 {
 }
 div#part3 {
     background-color: #99a285;
-    height: 658px;
 }
 
 nav {
@@ -108,6 +107,7 @@ div.leaf h1 {
     font-family: noodle;
     margin-top: 190px;
     margin-left: -80px;
+    text-shadow: 7px 7px 7px #596e44;
 }
 
 
@@ -148,6 +148,7 @@ div.who h1 {
     padding-top: 160px;
     padding-left: 50px;
     margin-bottom: -10px;
+    text-shadow: 5px 5px 5px rgb(58, 61, 55);
 }
 
 div.who p {
@@ -163,15 +164,17 @@ div.tree img {
 }
 
 div.din img {
-    padding-top: 90px;
+    padding-top: 50px;
     padding-right: 160px;
     padding-left: 40px;
+    padding-bottom: 65px;
 }
 
 div.doar h1 {
     color: #596e44;
     font-family: noodle;
     font-size: 100px;
+    text-shadow: 7px 7px 7px #6f7757;
 
 }
 
@@ -371,7 +374,14 @@ hr {
 
     div#part3 {
         background-color: #99a285;
-        height: 658px;
         width: 513px;
+    }
+
+    footer {
+        background-color: #596e44;
+        height: 59px;
+        align-items: center;
+        margin: 0;
+    
     }
 }
