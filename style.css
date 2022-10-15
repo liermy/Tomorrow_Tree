@@ -237,7 +237,6 @@ hr {
     
     nav ul li {
         text-align: right;
-        padding-right: 10px;
     }
     
     nav ul li a {
@@ -285,18 +284,6 @@ hr {
     /*artigo*/
 
 
-    h1 {
-        font-size: 90px;
-        color: white;
-        font-family: noodle;
-        justify-content: left;
-    }
-
-    iframe {
-        margin-top: 0;
-        margin-left: 0;
-    }
-
     div.leaf {
         display: flex;
         flex-direction: column;
@@ -329,7 +316,7 @@ hr {
 
     div.leaf img {
         width: 300px;
-        margin-top: 90px;
+        margin-top: 70px;
     }
 
     div.doar {
@@ -372,15 +359,15 @@ hr {
     }
     
     iframe {
-        width: 440px;
+        width: 460px;
         height: 250px;
-        justify-content: center;
         margin-top: 0px;
         margin-left: 0px;
+        justify-content: center;
     }
 
     div.leaf h1 {
-        font-size: 120px;
+        font-size: 90px;
         color: white;
         font-family: noodle;
         padding-left: 90px;
@@ -391,7 +378,7 @@ hr {
         background-color: #99a285;
         display: flex;
         padding-bottom: 87px;
-        width: 480px;
+        width: 460px;
     }
 
     div#part2 {
@@ -402,7 +389,7 @@ hr {
 
     div#part3 {
         background-color: #99a285;
-        width: 480px;
+        width: 460px;
         
     }
 
@@ -411,7 +398,7 @@ hr {
         height: 59px;
         align-items: center;
         margin: 0;
-        width: 480px;
+        width: 460px;
     
     }
 
