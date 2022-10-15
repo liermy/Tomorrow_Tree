@@ -237,6 +237,7 @@ hr {
     
     nav ul li {
         text-align: right;
+        padding-right: 8px;
     }
     
     nav ul li a {
@@ -258,15 +259,15 @@ hr {
     }
     
     button {
-        font-size: 22px;
+        font-size: 20px;
         cursor: pointer;
         border-radius: 28px;
         border: 1px solid #99a285;
         color: #99a285;
         font-family: noodle;
-        padding: 11px 19px;
+        padding: 9px 16px;
         background-color: white;
-        margin: 5px;
+        margin: 4px;
         text-shadow: 0px 1px 0px #84887a;
         text-transform: uppercase;
     }
@@ -359,7 +360,7 @@ hr {
     }
     
     iframe {
-        width: 460px;
+        width: 444px;
         height: 250px;
         margin-top: 0px;
         margin-left: 0px;
@@ -378,7 +379,6 @@ hr {
         background-color: #99a285;
         display: flex;
         padding-bottom: 87px;
-        width: 460px;
     }
 
     div#part2 {
@@ -389,7 +389,6 @@ hr {
 
     div#part3 {
         background-color: #99a285;
-        width: 460px;
         
     }
 
@@ -398,7 +397,6 @@ hr {
         height: 59px;
         align-items: center;
         margin: 0;
-        width: 460px;
     
     }
 
