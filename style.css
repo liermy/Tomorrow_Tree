@@ -12,6 +12,20 @@ body {
 
 div#part1 {
     background-color: #99a285;
+    display: flex;@font-face {
+    font-family: noodle;
+    src: url(./font_/big_noodle_titling.ttf);
+}
+
+@media screen and (max-width:2000px) {
+
+body {
+    margin: 0;
+    font-family: noodle;
+}
+
+div#part1 {
+    background-color: #99a285;
     display: flex;
     padding-bottom: 87px;
 }
@@ -365,6 +379,396 @@ hr {
         margin-top: 0px;
         margin-left: 0px;
         justify-content: center;
+    }
+
+    div.leaf h1 {
+        font-size: 90px;
+        color: white;
+        font-family: noodle;
+        padding-left: 90px;
+        margin-top: 0px;
+    }
+
+    div#part1 {
+        background-color: #99a285;
+        display: flex;
+        padding-bottom: 87px;
+    }
+
+    div#part2 {
+        background-color: #ffffff;
+        display: flex;
+        padding-bottom: 82px;
+    }
+
+    div#part3 {
+        background-color: #99a285;
+        
+    }
+
+    footer {
+        background-color: #596e44;
+        height: 59px;
+        align-items: center;
+        margin: 0;
+    
+    }
+
+    hr {
+        margin: 0;
+        border: 2px solid #596e44;
+        width: 450px;
+    }
+}
+}
+
+div#part2 {
+    background-color: #ffffff;
+    display: flex;
+    padding-bottom: 82px;
+}
+div#part3 {
+    background-color: #99a285;
+}
+
+nav {
+    display: flex;
+    background-color: #596e44;
+    position: fixed;
+    width: 100%;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    justify-content: right;
+}
+
+nav ul li {
+    text-align: right;
+    padding-right: 10px;
+}
+
+nav ul li a {
+    padding: 5px 0;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #99a285;
+    border-radius: 10px;
+    top: 2px;
+    position: relative;
+}
+
+div#button {
+    display: flex;
+}
+
+button {
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 28px;
+    border: 1px solid #99a285;
+    color: #99a285;
+    font-family: noodle;
+    padding: 11px 19px;
+    background-color: white;
+    margin: 5px;
+    text-shadow: 0px 1px 0px #84887a;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #99a285;
+    color: white;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+div.leaf img {
+    width: 500px;
+    margin-top: 170px;
+    margin-left: -30px;
+}
+
+div.leaf h1 {
+    font-size: 90px;
+    color: white;
+    font-family: noodle;
+    margin-top: 190px;
+    margin-left: -80px;
+    text-shadow: 7px 7px 7px #596e44;
+}
+
+
+div.leaf {
+    display: flex;
+}
+
+iframe {
+    margin-top: 207px;
+    margin-left: 40px;
+}
+
+footer {
+    background-color: #596e44;
+    height: 59px;
+    align-items: center;
+    margin: 0;
+
+}
+
+div.foo img{
+    width: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.foo {
+    display: flex;
+    justify-content: center;
+}
+
+
+div.who h1 {
+    color: #84887a;
+    font-family: noodle;
+    font-size: 100px;
+    padding-top: 160px;
+    padding-left: 50px;
+    margin-bottom: -10px;
+    text-shadow: 5px 5px 5px rgb(58, 61, 55);
+}
+
+div.who p {
+    color: #84887a;
+    font-family: noodle;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+div.tree img {
+    padding-top: 160px;
+    padding-left: 200px;
+}
+
+div.din img {
+    padding-top: 50px;
+    padding-right: 160px;
+    padding-left: 40px;
+    padding-bottom: 65px;
+}
+
+div.doar h1 {
+    color: #596e44;
+    font-family: noodle;
+    font-size: 100px;
+    text-shadow: 7px 7px 7px #6f7757;
+
+}
+
+div.doar p {
+    color: white;
+    font-family: noodle;
+    font-size: 30px;
+
+}
+
+div.doar hgroup {
+    text-align:center;
+}
+
+div#quem {
+    display: flex;
+}
+
+div.doar hr {
+    margin: 0;
+    border: 2px solid #596e44;
+    width: 500px;
+}
+
+div.doar {
+    display: flex;
+}
+
+hr {
+    margin: 0;
+    border: 2px solid #596e44;
+    width: 500px;
+}
+
+}
+
+@media screen and (max-width:600px) {
+    nav {
+        display: flex;
+        background-color: #596e44;
+        position:relative;
+        
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        width: 100%;
+        justify-content: right;
+    }
+    
+    nav ul li {
+        text-align: right;
+        padding-right: 8px;
+    }
+    
+    nav ul li a {
+        padding: 5px 0;
+        width: 100%;
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav ul li a:hover {
+        color: #99a285;
+        border-radius: 10px;
+        top: 2px;
+        position: relative;
+    }
+    
+    div#button {
+        display: flex;
+    }
+    
+    button {
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 28px;
+        border: 1px solid #99a285;
+        color: #99a285;
+        font-family: noodle;
+        padding: 9px 16px;
+        background-color: white;
+        margin: 4px;
+        text-shadow: 0px 1px 0px #84887a;
+        text-transform: uppercase;
+    }
+    
+    button:hover {
+        background-color: #99a285;
+        color: white;
+    }
+    
+    button:active {
+        position: relative;
+        top: 1px;
+    }
+
+    /*artigo*/
+
+
+    div.leaf {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    div#quem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.who h1 {
+        color: #84887a;
+        font-family: noodle;
+        font-size: 100px;
+        padding-top: 0px;
+        padding-left: 50px;
+        margin-bottom: -10px;
+        text-shadow: 5px 5px 5px rgb(58, 61, 55);
+    }
+
+    div.tree img {
+        padding-top: 0px;
+        width: 300px;
+        padding-left: 0px;
+    }
+
+    div.leaf img {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    div.doar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.foo {
+        display: flex;
+        justify-content: center;
+    }
+
+    div.doar hr {
+        margin: 0;
+        border: 0px solid #596e44;
+        width: 0px;
+    }
+
+    div.din img {
+        padding-top: 50px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 300px;
+    }
+
+    div.doar h1 {
+        color: #596e44;
+        font-family: noodle;
+        font-size: 100px;
+        
+    }
+    
+    div.doar p {
+        color: white;
+        font-family: noodle;
+        font-size: 30px;
+        text-align: left;
+    }
+    
+    iframe {
+        width: 400px;
+        height: 210px;
+        margin-top: 0px;
+        margin-left: 0px;
     }
 
     div.leaf h1 {
